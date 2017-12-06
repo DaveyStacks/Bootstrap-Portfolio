@@ -1,0 +1,129 @@
+.navbar {
+}
+
+.namebox {
+	color: white;
+	background: #4aaaa5;
+	padding: 25px;
+	font-size: 24px;
+	font-family: helvetica sans-serif;
+	text-align: center;
+}
+
+
+.maincontainer {
+	margin: auto;
+	background-image: url(circles-dark.png);
+}
+
+.mainsection {
+	background: red;
+}
+
+.navbar-right {
+	font-size: 18px;
+	vertical-align: middle;
+	display: block;
+	margin-top: 30px;
+}
+
+.navbarlinks {
+	color: grey;
+}
+
+#navigation li:not(:first-child):before {
+    content: " | ";
+    padding-right: 7px;
+}
+
+.center {
+	text-align: center;
+}
+
+.aboutheader{
+	color: #4aaaa5;
+	font-size: 24px;
+	font-family: helvetica sans-serif;
+	border-bottom: solid #ccc 2px;
+	padding: 15px;
+
+}
+
+.aboutmebody {
+	background-color: #fff;
+}
+
+.myimg {
+	margin-top: 15px;
+}
+
+.imgblock {
+	height: 240px;
+	width: 315px;
+	position: relative;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+
+.portimage {
+	position: absolute;
+	height: 240px;
+	width: 315px;
+}
+
+.imgtext {
+	z-index: 100;
+	position: absolute;
+	color: white;
+	padding: 20px;
+	background: #4aaaa5;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.panel {
+	color: #4aaaa5;
+	font-size: 18px;
+	font-family: helvetica sans-serif;
+}
+
+.panel-heading {
+	text-align: center;
+	border-bottom: solid #ccc 1px;
+}
+
+.aboutmep {
+	color: #666;
+	line-height: 1.5;
+	font-size: 18px;
+	word-wrap: break-word;
+	margin-top: 20px;
+}
+
+#contactform {
+	padding: 20px;
+}
+
+.indent {
+	text-indent: 6mm;
+}
+
+#linky {
+	text-align: center;
+}
+
+.iconimage {
+	display: inline-block;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	color: white;
+	background: #4aaaa5;
+	border-top: solid grey 10px;
+	padding: 30px;
+	margin-top: 20px;
+}
